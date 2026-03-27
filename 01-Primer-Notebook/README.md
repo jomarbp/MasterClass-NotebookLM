@@ -62,7 +62,7 @@ La interfaz de NotebookLM tiene 3 paneles principales:
 ### Panel Derecho - Studio / Notebook Guide
 - Contiene opciones de generacion automatica
 - Sugerencias de preguntas basadas en tus fuentes
-- Opciones para generar contenido (resumen, guia, FAQ, etc.)
+- Opciones para generar contenido (informes, cuestionario, mapa mental, tarjetas didacticas, etc.)
 
 ---
 
@@ -179,21 +179,21 @@ El panel derecho **Studio** ofrece generacion automatica. Explora estas opciones
 
 | Opcion | Que genera |
 |--------|------------|
-| **Summary** | Resumen completo de todas las fuentes |
-| **Study Guide** | Guia de estudio con preguntas y respuestas |
-| **Table of Contents** | Indice tematico del contenido |
-| **Timeline** | Linea temporal de eventos (si aplica) |
-| **Briefing Doc** | Documento ejecutivo con hallazgos clave |
-| **FAQ** | Preguntas frecuentes basadas en las fuentes |
+| **Informes** | Resumen estructurado y sintesis academica de las fuentes |
+| **Cuestionario** | Preguntas de comprension, repaso y evaluacion automatica |
+| **Mapa mental** | Organizacion visual de conceptos clave y estructura tematica |
+| **Tarjetas didacticas** | Flashcards con definiciones rapidas para memorizacion |
 | **Audio Overview** | Podcast conversacional sobre el tema |
 
 ### Ejercicio: Genera tu primer recurso automatico
 
 1. Ve al panel derecho (Studio)
-2. Haz clic en **"Summary"**
-3. Revisa el resumen generado
+2. Haz clic en **"Informes"** para obtener un resumen estructurado
+3. Revisa el informe generado
 4. Si te gusta, guardalo como nota
-5. Prueba con **"Study Guide"** y compara
+5. Prueba con **"Cuestionario"** para generar preguntas de estudio
+6. Explora **"Mapa mental"** para ver la estructura visual del contenido
+7. Genera **"Tarjetas didacticas"** para obtener flashcards de repaso
 
 ---
 

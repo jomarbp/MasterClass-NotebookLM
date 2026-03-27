@@ -76,7 +76,7 @@ Cada participante seleccionara **un producto final** para desarrollar y presenta
    ```
 2. Pide notas detalladas del presentador para cada slide
 3. Genera preguntas interactivas para incluir en la presentacion
-4. Usa el Studio > Briefing Doc como material de apoyo
+4. Usa el Studio > Informes como material de apoyo
 5. Exporta y organiza el contenido
 
 **Criterios de calidad:**
@@ -160,7 +160,7 @@ Cada participante seleccionara **un producto final** para desarrollar y presenta
    ```
 2. Pide que genere las respuestas de las actividades (para el docente)
 3. Genera un set de flashcards complementario
-4. Usa Studio > Study Guide como material adicional
+4. Usa Studio > Cuestionario y Tarjetas didacticas como material adicional
 
 **Criterios de calidad:**
 - [ ] Objetivos medibles y claros
@@ -183,7 +183,7 @@ Cada participante seleccionara **un producto final** para desarrollar y presenta
    Itera y            Usa el Studio       Comparte tu
    mejora el          para agregar        producto con
    contenido          extras (audio,      el grupo
-                      guia, FAQ)
+                      cuestionario, tarjetas)
 ```
 
 ---
@@ -206,9 +206,11 @@ No te quedes con la primera respuesta. Pide refinamientos:
 
 ### 4. Aprovecha el Studio
 Genera recursos complementarios con las opciones automaticas del Studio:
-- **FAQ** para anticipar dudas de tus estudiantes
-- **Study Guide** como material de repaso
-- **Audio Overview** como recurso adicional
+- **Cuestionario** para generar preguntas de repaso y evaluacion
+- **Mapa mental** para visualizar la estructura del tema
+- **Tarjetas didacticas** como flashcards de repaso rapido
+- **Informes** como resumen academico estructurado
+- **Audio Overview** como recurso auditivo adicional
 
 ### 5. Documenta tu proceso
 Guarda como notas las versiones intermedias para poder compararlas.
@@ -254,8 +256,9 @@ Cada participante tendra **3-5 minutos** para presentar:
 
 **Complementos generados:**
 - Audio Overview: "IA y Educacion en 10 minutos"
-- FAQ: 15 preguntas frecuentes de docentes sobre IA
-- Study Guide: Guia de estudio para profundizar
+- Cuestionario: Preguntas de comprension y evaluacion sobre IA
+- Mapa mental: Estructura visual de conceptos de IA
+- Tarjetas didacticas: Flashcards de terminos clave de IA
 
 ---
 

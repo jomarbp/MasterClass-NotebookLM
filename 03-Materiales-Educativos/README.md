@@ -332,19 +332,21 @@ Ademas del chat, el panel Studio ofrece generacion directa:
 
 | Opcion Studio | Material que genera | Uso educativo |
 |--------------|--------------------|----|
-| **FAQ** | Preguntas frecuentes | Base para seccion de dudas |
-| **Study Guide** | Guia de estudio completa | Material de repaso |
-| **Briefing Doc** | Documento ejecutivo | Resumen para docentes |
-| **Timeline** | Linea temporal | Contexto historico |
-| **Table of Contents** | Indice tematico | Estructura de curso |
-| **Audio Overview** | Podcast conversacional | Material auditivo |
+| **Cuestionario** | Preguntas de comprension y evaluacion | Base para examenes, repaso y autoevaluacion |
+| **Mapa mental** | Organizacion visual de conceptos | Estructura tematica, conceptos clave |
+| **Tarjetas didacticas** | Flashcards de definiciones | Memorizacion rapida, repaso de terminos |
+| **Informes** | Resumen estructurado academico | Sintesis para docentes y estudiantes |
+| **Audio Overview** | Podcast conversacional | Material auditivo, clase invertida |
 
 ### Tip: Combinar Chat + Studio
 
-> 1. Usa el **Studio** para generar la primera version automatica
-> 2. Luego usa el **Chat** para refinar, ampliar o ajustar
-> 3. **Guarda como nota** cada version final
-> 4. Exporta copiando el texto a tu herramienta favorita
+> 1. Usa **Cuestionario** del Studio para generar preguntas automaticas
+> 2. Usa **Mapa mental** para obtener la estructura visual del tema
+> 3. Usa **Tarjetas didacticas** para generar flashcards instantaneas
+> 4. Usa **Informes** para obtener un resumen academico estructurado
+> 5. Luego usa el **Chat** para refinar, ampliar o ajustar cualquier material
+> 6. **Guarda como nota** cada version final
+> 7. Exporta copiando el texto a tu herramienta favorita
 
 ---
 

@@ -94,12 +94,10 @@ Si NotebookLM corta la respuesta:
 
 | Opcion | Mejor momento para usar |
 |--------|------------------------|
-| **Summary** | Cuando acabas de cargar fuentes y quieres un panorama general |
-| **Study Guide** | Para crear material de repaso rapido |
-| **FAQ** | Para anticipar preguntas de estudiantes |
-| **Timeline** | Cuando las fuentes tienen contenido historico |
-| **Briefing Doc** | Para crear un resumen ejecutivo para compartir |
-| **Table of Contents** | Para planificar la estructura de un curso |
+| **Informes** | Cuando acabas de cargar fuentes y quieres un resumen estructurado |
+| **Cuestionario** | Para crear preguntas de comprension, repaso y evaluacion |
+| **Mapa mental** | Para visualizar la estructura y conceptos clave del contenido |
+| **Tarjetas didacticas** | Para generar flashcards de definiciones y memorizacion |
 | **Audio Overview** | Para crear contenido de podcast/audio |
 
 ### 3.2 Audio Overview - Tips avanzados
@@ -173,14 +171,14 @@ Si NotebookLM corta la respuesta:
 ### 5.2 Para crear videos
 
 1. Genera el guion completo en NotebookLM
-2. Usa el Audio Overview como "borrador" del tono
+2. Usa el Audio Overview como referencia del tono
 3. Copia el guion a un teleprompter
 4. Las indicaciones [VISUAL] te guian en la edicion
 
 ### 5.3 Para crear evaluaciones
 
 1. Genera preguntas con el chat
-2. Usa Study Guide como complemento
+2. Usa Cuestionario y Tarjetas didacticas como complemento
 3. Pide siempre la clave de respuestas
 4. Genera versiones A y B del mismo examen:
    ```
@@ -241,6 +239,10 @@ TRANSFORMACION (Chat + Studio)
 ├── Mapas mentales
 ├── Preguntas de examen
 ├── Tablas comparativas
+├── Cuestionario
+├── Mapa mental
+├── Tarjetas didacticas
+├── Informes
 ├── Audio Overview
 └── Guardar todo como notas
 │

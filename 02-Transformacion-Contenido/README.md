@@ -54,8 +54,8 @@ Genera 3 versiones de resumen del contenido de las fuentes:
 
 ### Mediante el Studio (Panel Derecho)
 
-1. Haz clic en **"Summary"** en el panel Studio
-2. NotebookLM generara un resumen automatico
+1. Haz clic en **"Informes"** en el panel Studio
+2. NotebookLM generara un resumen/informe automatico
 3. Puedes personalizar haciendo clic en **"Customize"**
 4. Guarda como nota para usar despues
 
@@ -170,10 +170,11 @@ Las preguntas deben ir de menor a mayor complejidad.
 
 ### Mediante el Studio
 
-1. Haz clic en **"Study Guide"** en el panel Studio
-2. NotebookLM genera automaticamente preguntas y respuestas
+1. Haz clic en **"Cuestionario"** en el panel Studio
+2. NotebookLM genera automaticamente preguntas de comprension, repaso y evaluacion
 3. Revisa y ajusta las preguntas generadas
 4. Guarda como nota
+5. Complementa con **"Tarjetas didacticas"** para generar flashcards automaticas
 
 ---
 
@@ -234,9 +235,7 @@ usa periodos aproximados.
 
 ### Mediante el Studio
 
-1. Haz clic en **"Timeline"** en el panel Studio
-2. NotebookLM genera una linea temporal automatica
-3. Funciona mejor cuando las fuentes contienen datos historicos
+Puedes solicitar lineas de tiempo directamente desde el **chat** de NotebookLM usando los prompts anteriores. Complementa con la opcion **"Mapa mental"** del Studio para visualizar la estructura temporal del contenido.
 
 ---
 
