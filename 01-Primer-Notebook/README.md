@@ -11,8 +11,10 @@ Google NotebookLM es un asistente de investigacion impulsado por IA (Gemini) que
 
 - Cargar multiples fuentes de informacion (PDFs, textos, URLs, videos de YouTube, audios)
 - Hacer preguntas y obtener respuestas basadas **exclusivamente** en tus fuentes
-- Generar resumenes, guias de estudio, preguntas de examen y mas
+- Generar informes, cuestionarios, mapas mentales, tarjetas didacticas y mas
+- Crear infografias, presentaciones (Slide Deck) y resumenes en video
 - Crear podcasts de audio (Audio Overview) a partir de tus fuentes
+- Usar Deep Research para completar contexto con fuentes externas
 - Organizar informacion en notas estructuradas
 
 **URL de acceso:** `notebooklm.google.com`
@@ -179,21 +181,27 @@ El panel derecho **Studio** ofrece generacion automatica. Explora estas opciones
 
 | Opcion | Que genera |
 |--------|------------|
-| **Informes** | Resumen estructurado y sintesis academica de las fuentes |
 | **Cuestionario** | Preguntas de comprension, repaso y evaluacion automatica |
 | **Mapa mental** | Organizacion visual de conceptos clave y estructura tematica |
 | **Tarjetas didacticas** | Flashcards con definiciones rapidas para memorizacion |
+| **Informes** | Resumen estructurado y sintesis academica de las fuentes |
+| **Infografia** | Resumen visual con bloques, iconos y estructura grafica |
+| **Presentacion (Slide Deck)** | Diapositivas listas para presentar o compartir |
 | **Audio Overview** | Podcast conversacional sobre el tema |
+| **Resumen en video** | Video corto con los puntos principales |
+| **Deep Research** | Investigacion adicional con fuentes externas para completar contexto |
 
 ### Ejercicio: Genera tu primer recurso automatico
 
 1. Ve al panel derecho (Studio)
 2. Haz clic en **"Informes"** para obtener un resumen estructurado
-3. Revisa el informe generado
+3. Revisa el informe generado y fijate en las **citas numeradas** (al hacer clic te llevan al fragmento original)
 4. Si te gusta, guardalo como nota
 5. Prueba con **"Cuestionario"** para generar preguntas de estudio
 6. Explora **"Mapa mental"** para ver la estructura visual del contenido
 7. Genera **"Tarjetas didacticas"** para obtener flashcards de repaso
+8. Prueba **"Infografia"** para un resumen visual con bloques y estructura grafica
+9. Genera una **"Presentacion"** para obtener diapositivas listas para usar
 
 ---
 

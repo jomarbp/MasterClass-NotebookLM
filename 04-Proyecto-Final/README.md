@@ -39,7 +39,8 @@ Cada participante seleccionara **un producto final** para desarrollar y presenta
    - Graficos o textos superpuestos (GRAFICO)
    ```
 3. Refina el guion pidiendo mejoras especificas
-4. Genera un Audio Overview como referencia del tono
+4. Genera un **Audio Overview** como referencia del tono
+5. Genera un **Resumen en video** del tema desde el Studio
 5. Guarda el guion final como nota
 
 **Criterios de calidad:**
@@ -76,8 +77,10 @@ Cada participante seleccionara **un producto final** para desarrollar y presenta
    ```
 2. Pide notas detalladas del presentador para cada slide
 3. Genera preguntas interactivas para incluir en la presentacion
-4. Usa el Studio > Informes como material de apoyo
-5. Exporta y organiza el contenido
+4. Genera una **Presentacion (Slide Deck)** desde el Studio como base rapida
+5. Usa el Studio > **Informes** como material de apoyo
+6. Genera una **Infografia** desde el Studio como complemento visual
+7. Exporta y organiza el contenido
 
 **Criterios de calidad:**
 - [ ] Tiene portada, agenda, contenido y cierre
@@ -119,7 +122,8 @@ Cada participante seleccionara **un producto final** para desarrollar y presenta
    ```
 2. Pide una version ampliada con definiciones en cada nodo
 3. Genera una tabla resumen de los conceptos del mapa
-4. Exporta a una herramienta visual (Canva, Miro, MindMeister)
+4. Genera un **Mapa mental** desde el Studio para comparar con tu version del Chat
+5. Exporta a una herramienta visual (Canva, Miro, MindMeister)
 
 **Criterios de calidad:**
 - [ ] Tiene al menos 4 niveles de profundidad
@@ -179,11 +183,12 @@ Cada participante seleccionara **un producto final** para desarrollar y presenta
    tu opcion          tema, audiencia     NotebookLM para
    (A, B, C o D)      y alcance           crear el contenido
 
-4. REFINAR         5. COMPLEMENTAR     6. PRESENTAR
-   Itera y            Usa el Studio       Comparte tu
-   mejora el          para agregar        producto con
-   contenido          extras (audio,      el grupo
-                      cuestionario, tarjetas)
+4. REFINAR         5. COMPLEMENTAR        6. PRESENTAR
+   Itera y            Usa el Studio          Comparte tu
+   mejora el          (infografia,           producto con
+   contenido          presentacion, audio,   el grupo
+                      video, cuestionario,
+                      tarjetas, mapa mental)
 ```
 
 ---
@@ -210,7 +215,11 @@ Genera recursos complementarios con las opciones automaticas del Studio:
 - **Mapa mental** para visualizar la estructura del tema
 - **Tarjetas didacticas** como flashcards de repaso rapido
 - **Informes** como resumen academico estructurado
+- **Infografia** para resumenes visuales con bloques y estructura grafica
+- **Presentacion (Slide Deck)** para diapositivas listas al instante
 - **Audio Overview** como recurso auditivo adicional
+- **Resumen en video** para crear un video corto con puntos clave
+- **Deep Research** para ampliar contenido con fuentes externas
 
 ### 5. Documenta tu proceso
 Guarda como notas las versiones intermedias para poder compararlas.
@@ -254,11 +263,15 @@ Cada participante tendra **3-5 minutos** para presentar:
 14. Recursos y herramientas recomendadas
 15. Preguntas y contacto
 
-**Complementos generados:**
+**Complementos generados desde el Studio:**
+- Infografia: Resumen visual de fundamentos de IA
+- Presentacion (Slide Deck): Version rapida generada por el Studio
 - Audio Overview: "IA y Educacion en 10 minutos"
+- Resumen en video: Video corto sobre IA para educadores
 - Cuestionario: Preguntas de comprension y evaluacion sobre IA
 - Mapa mental: Estructura visual de conceptos de IA
 - Tarjetas didacticas: Flashcards de terminos clave de IA
+- Informes: Resumen academico estructurado
 
 ---
 
@@ -269,9 +282,11 @@ Al terminar la masterclass, cada participante deberia tener:
 - [ ] Cuenta configurada en NotebookLM
 - [ ] Al menos un notebook con 5+ fuentes cargadas
 - [ ] Contenido generado con herramientas de IA (Bloque 0)
-- [ ] Resumenes y mapas mentales (Bloque 2)
-- [ ] Preguntas tipo examen generadas (Bloque 2)
-- [ ] Audio Overview creado (Bloque 2)
+- [ ] Resumenes, informes y mapas mentales (Bloque 2)
+- [ ] Cuestionario y tarjetas didacticas generadas (Bloque 2)
+- [ ] Infografia y presentacion (Slide Deck) generados (Bloque 2)
+- [ ] Audio Overview y resumen en video creados (Bloque 2)
+- [ ] Deep Research explorado (Bloque 2)
 - [ ] Al menos 2 materiales educativos creados (Bloque 3)
 - [ ] Proyecto final completo y listo para usar (Bloque 4)
 

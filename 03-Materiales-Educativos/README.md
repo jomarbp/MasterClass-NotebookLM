@@ -336,7 +336,11 @@ Ademas del chat, el panel Studio ofrece generacion directa:
 | **Mapa mental** | Organizacion visual de conceptos | Estructura tematica, conceptos clave |
 | **Tarjetas didacticas** | Flashcards de definiciones | Memorizacion rapida, repaso de terminos |
 | **Informes** | Resumen estructurado academico | Sintesis para docentes y estudiantes |
+| **Infografia** | Resumen visual con bloques y estructura | Explicar conceptos complejos visualmente, material para redes |
+| **Presentacion (Slide Deck)** | Diapositivas estructuradas | Clase magistral, exposicion, material para compartir |
 | **Audio Overview** | Podcast conversacional | Material auditivo, clase invertida |
+| **Resumen en video** | Video corto con puntos principales | Vision general rapida, piezas educativas |
+| **Deep Research** | Investigacion con fuentes externas | Ampliar contenido, crear comparativas, guias completas |
 
 ### Tip: Combinar Chat + Studio
 
@@ -344,9 +348,13 @@ Ademas del chat, el panel Studio ofrece generacion directa:
 > 2. Usa **Mapa mental** para obtener la estructura visual del tema
 > 3. Usa **Tarjetas didacticas** para generar flashcards instantaneas
 > 4. Usa **Informes** para obtener un resumen academico estructurado
-> 5. Luego usa el **Chat** para refinar, ampliar o ajustar cualquier material
-> 6. **Guarda como nota** cada version final
-> 7. Exporta copiando el texto a tu herramienta favorita
+> 5. Usa **Infografia** para crear resumenes visuales con bloques y estructura grafica
+> 6. Usa **Presentacion** para generar diapositivas listas para exponer
+> 7. Usa **Resumen en video** para crear un video corto con los puntos clave
+> 8. Usa **Deep Research** si necesitas ampliar el contenido con fuentes externas
+> 9. Luego usa el **Chat** para refinar, ampliar o ajustar cualquier material
+> 10. **Guarda como nota** cada version final (las mejores respuestas conviertelas en fuente)
+> 11. Exporta copiando el texto a tu herramienta favorita
 
 ---
 
@@ -394,29 +402,40 @@ RECURSOS GENERALES:
 
 Elige uno de los siguientes y crealo usando NotebookLM:
 
-**Opcion A:** Guion de Video (10 min) + Presentacion (15 slides)
-**Opcion B:** Ficha de Aprendizaje + Hoja de Actividades + 20 Flashcards
-**Opcion C:** Estructura de Curso Completo + Rubrica de Evaluacion
+**Opcion A:** Guion de Video (10 min) + Presentacion del Studio (Slide Deck) + Infografia
+**Opcion B:** Ficha de Aprendizaje + Tarjetas didacticas del Studio + Cuestionario del Studio
+**Opcion C:** Estructura de Curso Completo + Rubrica + Resumen en video + Audio Overview
 
 ### Caso practico IA - Resultado esperado:
 
-- Guion de video: "Que es la IA y por que importa" (10 min)
-- Presentacion: "IA para profesionales" (15 diapositivas)
-- Ficha: "Fundamentos de Machine Learning"
-- Actividad: "Explorando herramientas de IA generativa"
-- Flashcards: 20 tarjetas sobre conceptos clave de IA
-- Rubrica: Para evaluar un proyecto sobre aplicaciones de IA
+- Guion de video: "Que es la IA y por que importa" (10 min) via Chat
+- Presentacion del Studio: "IA para profesionales" (Slide Deck generado)
+- Infografia del Studio: Resumen visual de fundamentos de IA
+- Cuestionario del Studio: Preguntas de evaluacion sobre IA
+- Tarjetas didacticas del Studio: Flashcards de terminos clave de IA
+- Mapa mental del Studio: Estructura visual IA > ML > DL > IA Generativa
+- Ficha: "Fundamentos de Machine Learning" via Chat
+- Actividad: "Explorando herramientas de IA generativa" via Chat
+- Rubrica: Para evaluar un proyecto sobre aplicaciones de IA via Chat
+- Audio Overview: Podcast sobre IA para principiantes
+- Resumen en video: Video corto sobre conceptos de IA
 
 ---
 
 ## Resumen del Bloque
 
-- [x] Creamos guiones para videos educativos
-- [x] Disenamos estructuras de presentaciones
-- [x] Elaboramos fichas de aprendizaje y flashcards
-- [x] Creamos hojas de actividades y casos de estudio
-- [x] Generamos rubricas de evaluacion
-- [x] Combinamos Chat + Studio para producir materiales
+- [x] Creamos guiones para videos educativos (Chat)
+- [x] Generamos Presentaciones / Slide Deck (Studio)
+- [x] Generamos Infografias visuales (Studio)
+- [x] Generamos Cuestionarios de evaluacion (Studio)
+- [x] Generamos Tarjetas didacticas / Flashcards (Studio)
+- [x] Generamos Mapas mentales (Studio)
+- [x] Generamos Informes academicos (Studio)
+- [x] Elaboramos fichas de aprendizaje y actividades (Chat)
+- [x] Generamos rubricas de evaluacion (Chat)
+- [x] Usamos Audio Overview y Resumen en video (Studio)
+- [x] Exploramos Deep Research para ampliar contenido (Studio)
+- [x] Combinamos Chat + Studio para producir materiales completos
 - [x] Organizamos didacticamente el contenido
 
 ➡️ [Ir al Bloque 4: Proyecto Final](../04-Proyecto-Final/README.md)

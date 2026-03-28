@@ -9,13 +9,17 @@
 
 A partir de las fuentes ya cargadas, vamos a transformar la informacion en:
 
-1. Resumenes tematicos estructurados
-2. Mapas mentales y esquemas conceptuales
-3. Preguntas tipo examen
-4. Listados de conceptos clave
+1. Resumenes tematicos estructurados (via Chat e Informes del Studio)
+2. Mapas mentales y esquemas conceptuales (via Chat y Mapa mental del Studio)
+3. Preguntas tipo examen (via Chat y Cuestionario del Studio)
+4. Listados de conceptos clave y tarjetas didacticas (via Chat y Tarjetas didacticas del Studio)
 5. Tablas comparativas
 6. Lineas de tiempo
-7. Audio Overview (Podcast)
+7. Infografias (via Studio)
+8. Presentaciones / Slide Deck (via Studio)
+9. Audio Overview - Podcast (via Studio)
+10. Resumen en video (via Studio)
+11. Deep Research - Investigacion adicional (via Studio)
 
 ---
 
@@ -278,7 +282,106 @@ Una de las funciones mas poderosas de NotebookLM.
 
 ---
 
-## Seccion 7: Tecnicas para Optimizar Consultas
+## Seccion 7: Infografias (Studio)
+
+Ideal para explicar mucho en poco espacio, de forma clara y visual.
+
+### Como generar una Infografia:
+
+1. En el panel **Studio**, selecciona **"Infografia"**
+2. Elige la fuente o fuentes que quieres usar
+3. NotebookLM genera automaticamente una infografia con estructura visual
+
+### Personalizar con instrucciones de estilo:
+
+Usa el campo de personalizacion para ajustar el resultado:
+```
+"Estilo limpio y minimalista, sin parrafos largos."
+"Formato muy visual, con bloques y bullets."
+"Tono profesional, jerarquia clara y titulares cortos."
+```
+
+### Formatos recomendados:
+- **Vertical:** perfecto para stories y piezas moviles
+- **Cuadrado:** ideal para feed y carruseles
+
+### Usos educativos de la Infografia:
+- Resumir una clase completa en una sola pieza visual
+- Explicar un concepto complejo con estructura grafica
+- Crear contenido rapido para redes sociales
+- Material de repaso visual para estudiantes
+
+> **Tip:** El resultado es una base lista para exportar. Si quieres un acabado mas de marca, puedes llevarlo a **Canva** y maquetarlo con tu plantilla.
+
+---
+
+## Seccion 8: Presentaciones / Slide Deck (Studio)
+
+Para preparar una presentacion clara en poco tiempo, con estructura y mensajes listos.
+
+### Como generar una Presentacion:
+
+1. En el panel **Studio**, selecciona **"Presentacion"** (Slide Deck)
+2. Elige la fuente y el tipo de presentacion
+3. NotebookLM genera las diapositivas automaticamente
+
+### Dos formatos habituales:
+- **Slides del presentador:** visuales, con pocos puntos, pensadas para presentar en directo
+- **Presentacion detallada:** mas texto, pensada para enviarla y que se entienda sin explicacion
+
+### Ajuste de estilo (ejemplos):
+```
+"Profesional y ejecutivo, tono corporativo."
+"Minimalista, mensajes breves."
+"Creativa pero seria, estilo agencia."
+"Didactica, con ejemplos claros para estudiantes."
+```
+
+### Exportacion:
+- Descargala en PDF y usala tal cual
+- Usala como base para maquetar en PowerPoint, Google Slides o Canva
+
+---
+
+## Seccion 9: Resumen en Video (Studio)
+
+Crea un video corto con los puntos principales de tus fuentes.
+
+### Como generar un Resumen en Video:
+
+1. Ve al panel **Studio**
+2. Selecciona la opcion de **Resumen en video**
+3. NotebookLM genera un video corto automatico con los puntos clave
+
+### Usos del Resumen en Video:
+- Tener una vision general rapida del contenido
+- Compartirlo facilmente con colegas o estudiantes
+- Crear piezas internas o educativas
+- Material para clase invertida (flipped classroom)
+
+---
+
+## Seccion 10: Deep Research - Investigacion Adicional (Studio)
+
+Si tus fuentes se quedan cortas, Deep Research completa el contexto con fuentes externas.
+
+### Como usar Deep Research:
+
+1. Ve al panel **Studio**
+2. Selecciona **"Deep Research"**
+3. NotebookLM busca fuentes externas para complementar tu contenido
+4. Revisa los resultados y valida la informacion adicional
+
+### Usos de Deep Research:
+- Completar guias con mas contexto
+- Crear comparativas con multiples perspectivas
+- Ampliar documentos con datos que tus fuentes no cubren
+
+> **Importante:** Separa siempre lo que viene de tus fuentes originales de lo añadido por Deep Research, para mantener la trazabilidad.
+
+---
+
+## Seccion 11: Tecnicas para Optimizar Consultas
 
 ### 1. Seleccion de fuentes especificas
 
@@ -332,33 +435,46 @@ Si la respuesta no es perfecta:
 
 Usando las fuentes que cargaste en el Bloque 1:
 
-1. **Genera un resumen en 3 niveles** (basico, intermedio, avanzado)
-2. **Crea un mapa mental** con al menos 4 ramas principales
-3. **Genera 10 preguntas de opcion multiple** con respuestas
-4. **Extrae los 15 conceptos clave** con definiciones
-5. **Crea una tabla comparativa** de al menos 3 elementos
-6. **Genera un Audio Overview** personalizado
-7. **Guarda todo como notas** en el notebook
+1. **Genera un resumen en 3 niveles** (basico, intermedio, avanzado) usando el Chat
+2. **Genera un Informe** desde el Studio para comparar con tu resumen del chat
+3. **Crea un mapa mental** desde el Studio con al menos 4 ramas principales
+4. **Genera un Cuestionario** desde el Studio con preguntas de evaluacion
+5. **Genera Tarjetas didacticas** desde el Studio para flashcards de repaso
+6. **Extrae los 15 conceptos clave** con definiciones usando el Chat
+7. **Crea una tabla comparativa** de al menos 3 elementos usando el Chat
+8. **Genera una Infografia** desde el Studio
+9. **Genera una Presentacion** desde el Studio
+10. **Genera un Audio Overview** personalizado con instrucciones en "Customize"
+11. **Genera un Resumen en video** desde el Studio
+12. **Guarda todo como notas** en el notebook
 
 ### Caso practico IA - Resultado esperado:
 
-- Resumen en 3 niveles sobre Inteligencia Artificial
-- Mapa mental: IA > ML > DL > IA Generativa > Etica
-- 10 preguntas sobre fundamentos de IA
+- Informe estructurado sobre Inteligencia Artificial
+- Mapa mental del Studio: IA > ML > DL > IA Generativa > Etica
+- Cuestionario con preguntas de comprension sobre IA
+- Tarjetas didacticas con terminos clave de IA
 - 15 conceptos clave (IA, ML, DL, NLP, etc.)
 - Tabla: ChatGPT vs Gemini vs Copilot
+- Infografia visual sobre fundamentos de IA
+- Presentacion (Slide Deck) sobre IA
 - Audio Overview sobre "IA para principiantes"
+- Video resumen sobre IA
 
 ---
 
 ## Resumen del Bloque
 
-- [x] Generamos resumenes en multiples formatos y niveles
-- [x] Creamos mapas mentales y esquemas conceptuales
-- [x] Produjimos bancos de preguntas tipo examen
-- [x] Extrajimos conceptos clave y glosarios
+- [x] Generamos resumenes en multiples formatos y niveles (Chat + Informes del Studio)
+- [x] Creamos mapas mentales y esquemas conceptuales (Chat + Mapa mental del Studio)
+- [x] Produjimos bancos de preguntas tipo examen (Chat + Cuestionario del Studio)
+- [x] Extrajimos conceptos clave y flashcards (Chat + Tarjetas didacticas del Studio)
 - [x] Creamos lineas de tiempo
-- [x] Generamos un Audio Overview (podcast)
+- [x] Generamos Infografias visuales (Studio)
+- [x] Generamos Presentaciones / Slide Deck (Studio)
+- [x] Generamos un Audio Overview - podcast (Studio)
+- [x] Generamos un Resumen en video (Studio)
+- [x] Exploramos Deep Research para investigacion adicional (Studio)
 - [x] Aprendimos tecnicas para optimizar consultas
 
 ➡️ [Ir al Bloque 3: Creacion de Materiales Educativos](../03-Materiales-Educativos/README.md)

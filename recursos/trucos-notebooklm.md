@@ -94,11 +94,15 @@ Si NotebookLM corta la respuesta:
 
 | Opcion | Mejor momento para usar |
 |--------|------------------------|
-| **Informes** | Cuando acabas de cargar fuentes y quieres un resumen estructurado |
-| **Cuestionario** | Para crear preguntas de comprension, repaso y evaluacion |
+| **Cuestionario** | Para crear preguntas de comprension, repaso y evaluacion automatica |
 | **Mapa mental** | Para visualizar la estructura y conceptos clave del contenido |
 | **Tarjetas didacticas** | Para generar flashcards de definiciones y memorizacion |
-| **Audio Overview** | Para crear contenido de podcast/audio |
+| **Informes** | Cuando acabas de cargar fuentes y quieres un resumen estructurado |
+| **Infografia** | Para resumir contenido visualmente con bloques, iconos y estructura grafica |
+| **Presentacion (Slide Deck)** | Para generar diapositivas listas para presentar o compartir |
+| **Audio Overview** | Para crear contenido de podcast/audio conversacional |
+| **Resumen en video** | Para crear un video corto con los puntos principales |
+| **Deep Research** | Para ampliar contenido con fuentes externas cuando tus fuentes se quedan cortas |
 
 ### 3.2 Audio Overview - Tips avanzados
 
@@ -125,7 +129,53 @@ Si NotebookLM corta la respuesta:
 - Audio de repaso antes de examenes
 - Material accesible para inclusion
 
-### 3.3 Combinar Studio + Chat
+### 3.3 Infografia - Tips avanzados
+
+**Personalizar el estilo:**
+- Indica el objetivo: "Resumen", "Mapa mental", "Pasos clave"
+- Ajusta el estilo con instrucciones claras
+
+**Instrucciones de estilo que funcionan bien:**
+```
+"Estilo limpio y minimalista, sin parrafos largos."
+"Formato muy visual, con bloques y bullets."
+"Tono profesional, jerarquia clara y titulares cortos."
+```
+
+**Formatos recomendados:**
+- **Vertical:** perfecto para stories y piezas moviles
+- **Cuadrado:** ideal para feed y carruseles
+
+**Tip:** El resultado es una base lista para exportar. Llevalo a **Canva** para maquetarlo con tu marca.
+
+### 3.4 Presentacion (Slide Deck) - Tips avanzados
+
+**Dos tipos de presentacion:**
+- **Slides del presentador:** visuales, con pocos puntos, pensadas para presentar en directo
+- **Presentacion detallada:** mas texto, pensada para enviarla y que se entienda sin explicacion
+
+**Instrucciones de estilo:**
+```
+"Profesional y ejecutivo, tono corporativo."
+"Minimalista, mensajes breves."
+"Didactica, con ejemplos claros para estudiantes."
+```
+
+**Exportacion:** Descargala en PDF y usala tal cual o como base para maquetar en PowerPoint, Google Slides o Canva.
+
+### 3.5 Resumen en Video
+
+- Genera un video corto con los puntos principales de tus fuentes
+- Util para vision general rapida, compartir facilmente y crear piezas educativas
+- Ideal para clase invertida (flipped classroom)
+
+### 3.6 Deep Research - Investigacion Adicional
+
+- Si tus fuentes se quedan cortas, Deep Research completa con fuentes externas
+- Util para guias, comparativas y documentos con varias perspectivas
+- **Importante:** Separa lo que viene de tus fuentes de lo anadido por Deep Research para mantener trazabilidad
+
+### 3.7 Combinar Studio + Chat
 
 1. **Genera con Studio** -> obtienes una primera version automatica
 2. **Copia al Chat** -> pide refinamientos especificos
@@ -141,9 +191,9 @@ Si NotebookLM corta la respuesta:
 - Haz clic en el icono de "Pin" o "Save to note"
 - La nota se guarda en el panel central
 
-### 4.2 Notas como fuentes
+### 4.2 Guardar las mejores respuestas como fuentes (Hack)
 
-**Truco avanzado:** Las notas guardadas pueden funcionar como referencia para futuras consultas en el mismo notebook. Si guardas un resumen como nota, puedes hacer preguntas sobre ese resumen.
+**Truco avanzado del PDF:** Cuando NotebookLM te de una respuesta muy buena, guardala como nota y **conviertela en fuente**. Asi no se pierde y podras reutilizarla en mapas, infografias y nuevos documentos. Aparecera en la seccion Studio como fuente adicional.
 
 ### 4.3 Organizar notas
 
@@ -163,14 +213,28 @@ Si NotebookLM corta la respuesta:
 
 ### 5.1 Para crear presentaciones
 
-1. Pide la estructura completa en NotebookLM
+**Opcion rapida (Studio):**
+1. Usa **Presentacion (Slide Deck)** del Studio para generar slides automaticamente
+2. Descarga en PDF y usala tal cual o como base para maquetar
+
+**Opcion detallada (Chat):**
+1. Pide la estructura completa en NotebookLM via Chat
 2. Copia cada diapositiva a Google Slides o PowerPoint
 3. Usa las notas del presentador como guia
 4. Tip: Pide las sugerencias visuales por separado
 
+**Complementa con:**
+- **Infografia** del Studio para material visual de apoyo
+- **Mapa mental** del Studio para estructura de conceptos
+
 ### 5.2 Para crear videos
 
-1. Genera el guion completo en NotebookLM
+**Opcion rapida (Studio):**
+1. Usa **Resumen en video** del Studio para un video corto automatico
+2. Usa **Audio Overview** como version audio del tema
+
+**Opcion detallada (Chat):**
+1. Genera el guion completo en NotebookLM via Chat
 2. Usa el Audio Overview como referencia del tono
 3. Copia el guion a un teleprompter
 4. Las indicaciones [VISUAL] te guian en la edicion
@@ -235,24 +299,29 @@ EXPLORACION (Chat de NotebookLM)
 │
 TRANSFORMACION (Chat + Studio)
 │
-├── Resumenes multinivel
-├── Mapas mentales
-├── Preguntas de examen
-├── Tablas comparativas
-├── Cuestionario
-├── Mapa mental
-├── Tarjetas didacticas
-├── Informes
-├── Audio Overview
+├── Resumenes multinivel (Chat)
+├── Mapas mentales (Chat)
+├── Preguntas de examen (Chat)
+├── Tablas comparativas (Chat)
+├── Cuestionario (Studio)
+├── Mapa mental (Studio)
+├── Tarjetas didacticas (Studio)
+├── Informes (Studio)
+├── Infografia (Studio)
+├── Presentacion / Slide Deck (Studio)
+├── Audio Overview (Studio)
+├── Resumen en video (Studio)
+├── Deep Research (Studio)
 └── Guardar todo como notas
 │
 CREACION (Chat de NotebookLM)
 │
-├── Guiones de video
-├── Estructuras de presentacion
-├── Fichas de aprendizaje
-├── Hojas de actividades
-└── Rubricas de evaluacion
+├── Guiones de video (Chat)
+├── Estructuras de presentacion (Chat + Studio Slide Deck)
+├── Infografias (Studio)
+├── Fichas de aprendizaje (Chat)
+├── Hojas de actividades (Chat)
+└── Rubricas de evaluacion (Chat)
 │
 EXPORTACION
 │
@@ -274,8 +343,16 @@ EXPORTACION
 | Seleccionar/deseleccionar fuente | Clic en el checkbox de la fuente |
 | Guardar respuesta como nota | Icono "Pin" en la respuesta |
 | Ver resumen de fuente | Clic en el nombre de la fuente |
+| Generar Cuestionario | Studio > Cuestionario |
+| Generar Mapa mental | Studio > Mapa mental |
+| Generar Tarjetas didacticas | Studio > Tarjetas didacticas |
+| Generar Informes | Studio > Informes |
+| Generar Infografia | Studio > Infografia |
+| Generar Presentacion | Studio > Presentacion (Slide Deck) |
 | Generar Audio Overview | Studio > Audio Overview > Generate |
 | Personalizar Audio | Studio > Audio Overview > Customize |
+| Generar Resumen en video | Studio > Resumen en video |
+| Usar Deep Research | Studio > Deep Research |
 | Compartir notebook | Menu > Share |
 | Descargar audio | 3 puntos en Audio Overview > Download |
 
@@ -285,14 +362,79 @@ EXPORTACION
 
 | Herramienta | Como integrar |
 |-------------|--------------|
-| **Google Slides** | Copia estructura de presentacion > Crea slides |
-| **Google Docs** | Copia contenido generado > Formatea en Docs |
-| **Canva** | Exporta mapas mentales/infografias a Canva |
-| **YouTube** | Usa guiones de video para crear contenido |
+| **Google Slides** | Copia estructura de presentacion o usa Slide Deck del Studio |
+| **Google Docs** | Copia contenido generado o usa Informes del Studio |
+| **Canva** | Exporta infografias del Studio a Canva para maquetarlas con tu marca |
+| **YouTube** | Usa guiones de video del Chat o Resumen en video del Studio |
 | **Podcast** | Descarga Audio Overview y publica |
-| **LMS (Moodle, Canvas)** | Exporta preguntas de examen al LMS |
-| **Quizlet/Anki** | Usa flashcards generadas para crear sets |
+| **LMS (Moodle, Canvas)** | Exporta Cuestionario y preguntas del Chat al LMS |
+| **Quizlet/Anki** | Usa Tarjetas didacticas del Studio para crear sets |
+| **Gemini** | Adjunta notebooks en Gemini para crear landings, guiones, mini cursos |
 
 ---
 
-> **Recuerda:** NotebookLM es tan bueno como las fuentes que le proporcionas. Invierte tiempo en curar fuentes de calidad y los resultados seran significativamente mejores.
+## 10. Hacks Avanzados de NotebookLM
+
+### 10.1 Usar NotebookLM dentro de Gemini
+
+Adjunta tus notebooks directamente en **Gemini** y pidele cosas como:
+- "Crea una landing page"
+- "Escribe un guion"
+- "Diseña un mini curso"
+
+Gemini usara solo ese cuaderno como fuente.
+
+### 10.2 Guardar respuestas como fuentes
+
+Cuando NotebookLM te de una respuesta muy buena:
+1. Guardala como **nota**
+2. Conviertela en **fuente**
+3. Asi no se pierde y podras reutilizarla en mapas, infografias y nuevos documentos
+
+### 10.3 Crear una persona fija por notebook
+
+Define en cada cuaderno como quieres que responda:
+- **Tono:** formal, casual, didactico, tecnico
+- **Rol:** profesor, consultor, periodista, divulgador
+- **Nivel de detalle:** basico, intermedio, avanzado
+- **Tipo de audiencia:** estudiantes, profesionales, ejecutivos
+
+Esas instrucciones se aplican siempre y no tienes que repetir el mismo prompt en cada mensaje.
+
+### 10.4 Ordenar cuadernos en carpetas
+
+Con extensiones como **NotebookLM Tools Extension** puedes:
+- Crear carpetas y agrupar notebooks
+- Organizar por proyecto, cliente o asignatura
+- Evitar perderte en una lista infinita de notebooks
+
+### 10.5 Entrenar con tus propios textos
+
+Crea un notebook solo con tus textos (newsletters, posts, hilos, guiones):
+- NotebookLM entendera tu estilo de escritura
+- Podra reescribir contenido nuevo sonando mucho mas parecido a ti
+- Util para mantener consistencia de marca personal
+
+### 10.6 Verificar siempre las citas
+
+- Cada respuesta de NotebookLM incluye **citas numeradas**
+- Al hacer clic, te lleva al **fragmento exacto** de la fuente original
+- Esto te permite verificar la informacion y construir materiales solidos
+- **NotebookLM no alucina** porque trabaja exclusivamente con las fuentes que subes
+
+### 10.7 Refinar antes de generar (direccion editorial)
+
+Antes de generar cualquier pieza del Studio, dedica un minuto a afinar:
+```
+"Hazlo mas minimalista y elimina redundancias."
+"Tono profesional, como un informe de consultoria."
+"Hazlo mas didactico, con ejemplos sencillos."
+"Simplifica los terminos tecnicos y anade analogias."
+"Incluye datos en tabla si aparecen en la fuente."
+```
+
+Piensa en este paso como **direccion editorial**: tu marcas el criterio, la herramienta ejecuta.
+
+---
+
+> **Recuerda:** NotebookLM es tan bueno como las fuentes que le proporcionas. Invierte tiempo en curar fuentes de calidad y los resultados seran significativamente mejores. No trabajes "a ciegas": todo lo que sale esta conectado a un fragmento real de tu material.
